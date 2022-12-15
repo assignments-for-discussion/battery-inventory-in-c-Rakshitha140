@@ -25,5 +25,14 @@ void testBucketingByNumberOfCycles() {
 
 int main() {
   testBucketingByNumberOfCycles();
+  if( counts>= 310){
+    lowCount++;
+  }
+  elif(310<counts<929){
+    mediumCount++;
+  }
+  else{
+    highCount++;
+  }
   return 0;
 }
